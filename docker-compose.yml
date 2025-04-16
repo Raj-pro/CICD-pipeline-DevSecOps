@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  # Development service
+  dev:
+    build:
+      context: .
+      target: build
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - "5173:5173"
+    command: npm run dev
+    environment:
+      - NODE_ENV=development
+      - VITE_HOST=0.0.0.0
+
+  # Production service
+  prod:
+    build: .
+    ports:
+      - "80:80"
+    environment:
+      - NODE_ENV=production
