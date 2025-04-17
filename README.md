@@ -22,7 +22,6 @@ The goal is to build a secure and automated CI/CD pipeline that ensures code qua
 -   **Trivy:** Vulnerability scanner for container images and filesystems.
 -   **Git:** Version control system for managing source code.
 -   **Shell Scripting:** Used for various commands within the pipeline.
--   **Wanderlust App:** The sample application being processed by the pipeline (Node.js based).
 
 ---
 
