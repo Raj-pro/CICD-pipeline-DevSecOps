@@ -9,7 +9,7 @@ This project demonstrates the implementation of a complete **DevSecOps CI/CD pip
 This project is inspired by the tutorial:
 **DevSecOps End to End CICD Project | DevOps Engineer | SonarQube + OWASP + Trivy + Docker + Jenkins**
 
-The goal is to build a secure and automated CI/CD pipeline that ensures code quality, checks for vulnerabilities, and deploys applications seamlessly using the `wanderlust` application as an example.
+The goal is to build a secure and automated CI/CD pipeline that ensures code quality, checks for vulnerabilities, and deploys applications seamlessly using the `simple` application as an example.
 
 ---
 
@@ -31,7 +31,7 @@ Before starting, ensure the following are set up:
 
 1.  **Source Code Repository:** Clone the required GitHub repository:
     ```bash
-    git clone https://github.com/shubham153/wanderlust
+    git clone https://github.com/Raj-pro/CICD-pipeline-DevSecOps
     ```
 2.  **Environment:** An AWS EC2 instance, local server, or virtual machine with sufficient resources (e.g., Ubuntu/Debian based).
 3.  **Installed Tools:** The following tools need to be installed on the server where Jenkins will run or be accessible to Jenkins agents:
@@ -179,7 +179,7 @@ Before starting, ensure the following are set up:
 
 1.  **Create a New Jenkins Job:**
     *   In Jenkins, click `New Item`.
-    *   Enter a name (e.g., `wanderlust-devsecops-pipeline`).
+    *   Enter a name (e.g., `CICD-pipeline-DevSecOps`).
     *   Select `Pipeline`.
     *   Click `OK`.
 2.  **Configure the Pipeline:**
