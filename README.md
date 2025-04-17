@@ -241,4 +241,4 @@ pipeline {
     }
 }
 ```
-<img scr="https://github.com/user-attachments/assets/894259a1-54cf-4fdb-aa04-b96946726f44">
+<img src="https://github.com/user-attachments/assets/894259a1-54cf-4fdb-aa04-b96946726f44">
