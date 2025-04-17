@@ -1,4 +1,4 @@
-![Screenshot 2025-04-18 000324](https://github.com/user-attachments/assets/e4c213b3-6140-4ae1-af45-73c03e25a009)# 🚀 DevSecOps CI/CD Pipeline Project
+# 🚀 DevSecOps CI/CD Pipeline Project
 
 This project demonstrates the implementation of a complete **DevSecOps CI/CD pipeline**, integrating security tools like **SonarQube**, **OWASP Dependency-Check**, and **Trivy** with **Docker** and **Jenkins**. It automates the processes of building, testing, scanning, and deploying applications, ensuring both efficiency and security in the software development lifecycle.
 
