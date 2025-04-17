@@ -10,7 +10,7 @@ This project is inspired by the tutorial:
 **DevSecOps End to End CICD Project | DevOps Engineer | SonarQube + OWASP + Trivy + Docker + Jenkins**
 
 The goal is to build a secure and automated CI/CD pipeline that ensures code quality, checks for vulnerabilities, and deploys applications seamlessly using the `simple` application as an example.
-<img src="https://github.com/user-attachments/assets/f2f961b4-6dc6-4027-99b0-7e65ca2cdc88">
+
 
 ---
 
@@ -23,7 +23,7 @@ The goal is to build a secure and automated CI/CD pipeline that ensures code qua
 -   **Trivy:** Vulnerability scanner for container images and filesystems.
 -   **Git:** Version control system for managing source code.
 -   **Shell Scripting:** Used for various commands within the pipeline.
-
+<img src="https://github.com/user-attachments/assets/f2f961b4-6dc6-4027-99b0-7e65ca2cdc88">
 ---
 
 ## ✅ Prerequisites
