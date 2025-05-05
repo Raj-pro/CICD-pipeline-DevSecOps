@@ -1,13 +1,13 @@
 # 🚀 DevSecOps CI/CD Pipeline Project
 
-This project demonstrates the implementation of a complete **DevSecOps CI/CD pipeline**, integrating security tools like **SonarQube**, **OWASP Dependency-Check**, and **Trivy** with **Docker** and **Jenkins**. It automates the processes of building, testing, scanning, and deploying applications, ensuring both efficiency and security in the software development lifecycle.
+This project demonstrates the implementation of a complete **DevSecOps CI/CD pipeline** in **AWS EC2 (t2.large)**, integrating security tools like **SonarQube**, **OWASP Dependency-Check**, and **Trivy** with **Docker** and **Jenkins**. It automates the processes of building, testing, scanning, and deploying applications, ensuring both efficiency and security in the software development lifecycle.
 
 ---
 
 ## 📺 Project Overview
 
 This project is inspired by the tutorial:
-**DevSecOps End to End CICD Project | DevOps Engineer | SonarQube + OWASP + Trivy + Docker + Jenkins**
+**DevSecOps End to End CICD Project | DevOps Engineer | SonarQube + OWASP + Trivy + Docker + Jenkins | AWS EC2**
 
 The goal is to build a secure and automated CI/CD pipeline that ensures code quality, checks for vulnerabilities, and deploys applications seamlessly using the `simple` application as an example.
 
@@ -15,7 +15,7 @@ The goal is to build a secure and automated CI/CD pipeline that ensures code qua
 ---
 
 ## 🏗️ Technologies Used
-
+-   **AWS EC2:** Create a server for deployment.
 -   **Jenkins:** Automation server for CI/CD pipeline orchestration.
 -   **Docker:** Containerization platform for building and running applications, including SonarQube.
 -   **SonarQube:** Static code analysis tool for code quality and security vulnerabilities.
